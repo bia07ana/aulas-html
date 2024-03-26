@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="mailto:anabia12345@gmail.com" method="post">
+      <fieldset>
+        <legend>informação do curso</legend>
+
+        <label for="NOME">Nome</label>
+        <input type="text" id="cx1">
+
+        <br><br> 
+
+        <label for="E-mail">E-mail</label>
+        <input type="text" id="E-mail">
+        
+        <br><br>
+    
+        <label for="endereço">endereço</label>
+        <input type="text" id="endereço">
+
+    </fieldset>
+
+         <br><br>
+          <fieldset>
+            <legend>informação do curso</legend>
+         <label for="lista unidades">selecione sua unidade</label>
+
+         <br>
+        
+         <select name="unidade" id="listaunidade">
+           <option value="op1" disabled selected>unidade</option>
+          <option value="santana">santana</option>
+          <option value="santo_amaro">santo amaro</option>
+          <option value="diadema">diadema</option>
+          <option value="itaquera">itaquera</option>
+         </select>
+         </fieldset>
+
+         <br><br>
+          <fieldset>
+            <legend>onde mora</legend>
+         <p>lista de cidade</p>
+         <input type="text" list="cidade" autocomplete="on" name="listacidade" placeholder="digite sua cidade">
+         <datalist td="cidade">
+        <optiom value="sao_paulo">São Paulo </optiom>
+        <optiom value="campinas">Campinas</optiom>
+        <optiom value="santo_andre">santo andre</optiom>
+        <optiom value="juquitiba">juquitiba</optiom>
+         </datalist>
+         <br><br>
+         <textarea name="avaliacao" id="avaliacao" cols="30" rows="10" placeholder="deixe aqui seu comentario." maxlength="100"></textarea>
+        </fieldset>
+         <br><br>
+         <input type="submit" value="enviar">
+
+        
+    </form>
+</body>
+</html>
